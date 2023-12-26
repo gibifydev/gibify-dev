@@ -8,7 +8,7 @@ export function DesktopMenu({ menu }: { menu: Menu[] }) {
   return (
     <>
       {menu.length ? (
-        <ul className="hidden gap-4 text-sm md:flex md:items-center --var(--font-inter)">
+        <ul className="hidden gap-4 text-sm md:flex md:items-center">
           {menu.map((item: Menu) => (
             <li key={item.title}>
               <Link

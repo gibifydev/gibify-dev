@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Roboto } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/navbar'
 import { Footer } from '@/components/footer'
@@ -7,6 +7,7 @@ import Script from 'next/script'
 import clsx from 'clsx'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const roboto = Roboto({ subsets: ['latin'], weight: ['400', '700'], variable: '--font-roboto' })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://gibify.dev'),
@@ -49,8 +50,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={clsx('', {})}>
-      <body className={inter.variable}>
+    <html lang="en" className={`${roboto.variable}`}>
+      <body>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-PJSG9JS52H" />
         <Script id="google-analytics">
           {`
