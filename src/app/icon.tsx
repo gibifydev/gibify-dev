@@ -1,4 +1,4 @@
-import { LogoIcon } from '@/components/logo-icon'
+import { LogoIcon } from '@/components/icon/logo-icon'
 import { ImageResponse } from 'next/og'
 
 
