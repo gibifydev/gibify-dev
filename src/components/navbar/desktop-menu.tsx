@@ -13,8 +13,8 @@ export function DesktopMenu({ menu }: { menu: Menu[] }) {
             <li key={item.title}>
               <Link
                 href={item.path}
-                className={clsx('text-neutral-500 py-2 rounded-sm  hover:border-b dark:text-white capitalize', {
-                  'border-b border-neutral-400': pathname === item.path,
+                className={clsx('text-neutral-500 py-2 rounded-xs  hover:border-b dark:text-white uppercase', {
+                  'border-b-2 border-green-500 text-green-500 font-semibold': pathname === item.path,
                 })}
               >
                 {item.title}

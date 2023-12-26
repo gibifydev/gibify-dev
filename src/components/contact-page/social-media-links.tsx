@@ -7,8 +7,8 @@ export function SocialMediaLinks() {
   const links = data.social_media_links;
 
   return (
-    <div>
-      <ul className='flex gap-4'>
+    <div className='mt-11'>
+      <ul className='flex justify-between gap-4'>
         {links.map((link) => {
           return (
             <li key={link.name}
