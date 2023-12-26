@@ -4,6 +4,7 @@ import './globals.css'
 import Navbar from '@/components/navbar'
 import { Footer } from '@/components/footer'
 import Script from 'next/script'
+import clsx from 'clsx'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
@@ -48,7 +49,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={clsx('', {})}>
       <body className={inter.variable}>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-PJSG9JS52H" />
         <Script id="google-analytics">

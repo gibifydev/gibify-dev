@@ -8,13 +8,14 @@ export function DesktopMenu({ menu }: { menu: Menu[] }) {
   return (
     <>
       {menu.length ? (
-        <ul className="hidden gap-4 text-sm md:flex md:items-center">
+        <ul className="hidden gap-4 text-sm md:flex md:items-center --var(--font-inter)">
           {menu.map((item: Menu) => (
             <li key={item.title}>
               <Link
                 href={item.path}
-                className={clsx('text-neutral-500 py-2 rounded-xs  hover:border-b dark:text-white uppercase', {
+                className={clsx('text-xs py-2 rounded-xs dark:text-white uppercase', {
                   'border-b-2 border-green-500 text-green-500 font-semibold': pathname === item.path,
+                  'border-b-1 border-neutral-500 text-neutral-500 font-normal': pathname !== item.path,
                 })}
               >
                 {item.title}
