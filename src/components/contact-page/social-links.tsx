@@ -1,9 +1,9 @@
 'use client'
 import { Icon } from '@/components/icon';
-import data from './social-media-links.json';
+import data from './social-links.json';
 import Link from 'next/link';
 import clsx from 'clsx';
-export function SocialMediaLinks() {
+export function SocialLinks() {
   const links = data.social_media_links;
 
   return (

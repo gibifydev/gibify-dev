@@ -1,8 +1,8 @@
 {
-  "social_media_links": [
+  "social_links": [
     {
       "name": "linkedin",
-      "path": "https://www.linkedin.com/in/gibifydev"
+      "path": "https://www.linkedin.com/in/gibifydev/"
     },
     {
       "name": "instagram",
@@ -18,7 +18,7 @@
     },
     {
       "name": "youtube",
-      "path": "https://www.youtube.com/gibifydev"
+      "path": "https://www.youtube.com/@gibifydev"
     },
     {
       "name": "github",
