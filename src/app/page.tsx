@@ -1,7 +1,7 @@
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: 'Evandro Gibicoski | Gibify Dev'
+  title: 'Evandro Gibicoski | Gibify'
 }
 
 export default function HomePage() {

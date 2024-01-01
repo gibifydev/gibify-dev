@@ -27,7 +27,7 @@ export default async function Image() {
             fill='white'
           />
         </svg>
-        <p>Gibify Dev | Evandro Gibicoski</p>
+        <p>Evandro Gibicoski | Gibify</p>
         <p>Frontend Developer - Next.js | React.js | Electron.js | Typescript | Javascript | Shopify</p>
       </div>
     ),

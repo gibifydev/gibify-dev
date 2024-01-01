@@ -4,7 +4,6 @@ import './globals.css'
 import Navbar from '@/components/navbar'
 import { Footer } from '@/components/footer'
 import Script from 'next/script'
-import clsx from 'clsx'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const roboto = Roboto({ subsets: ['latin'], weight: ['400', '700'], variable: '--font-roboto' })
@@ -12,15 +11,15 @@ const roboto = Roboto({ subsets: ['latin'], weight: ['400', '700'], variable: '-
 export const metadata: Metadata = {
   metadataBase: new URL('https://gibify.dev'),
   title: {
-    template: '%s | Gibify Dev',
-    default: 'Gibify Dev'
+    template: '%s | Gibify',
+    default: 'Gibify'
   },
   description: 'Frontend Developer - Next.js | React.js | Electron.js | Typescript | Javascript | Shopify',
   openGraph: {
-    title: 'Gibify Dev',
+    title: 'Gibify',
     description: 'Frontend Developer - Next.js | React.js | Electron.js | Typescript | Javascript | Shopify',
     url: 'https://gibify.dev',
-    siteName: 'Gibify Dev',
+    siteName: 'Gibify',
     locale: 'pt_BR',
     type: 'website',
   },
@@ -36,7 +35,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Gibify Dev',
+    title: 'Gibify',
     card: 'summary_large_image',
   },
   verification: {
