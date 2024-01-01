@@ -22,7 +22,7 @@ export default function Navbar() {
           <Link href="/" className="mr-4 flex w-full items-center justify-center md:w-auto lg:mr-6">
             <LogoSquare />
             <div className="ml-2 flex-none text-sm font-medium uppercase md:hidden lg:block">
-              <code>Gibify Dev</code>
+              <code>Gibify</code>
             </div>
           </Link>
           <DesktopMenu menu={menu} />
