@@ -14,9 +14,8 @@ export function DesktopMenu({ menu }: { menu: Menu[] }) {
             <li key={item.title}>
               <Link
                 href={item.path}
-                className={clsx('text-xs py-2 rounded-xs dark:text-white uppercase', {
-                  'border-b-2 border-green-500 text-green-500 font-semibold': pathname === item.path,
-                  'border-b-1 border-neutral-500 text-neutral-500 font-normal': pathname !== item.path,
+                className={clsx('text-xs py-2 font-normal rounded-xs dark:text-white uppercase', {
+                  'text-green-500 dark:text-green-500 font-semibold': pathname === item.path,
                 })}
               >
                 {item.title}

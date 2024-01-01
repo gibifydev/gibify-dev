@@ -28,7 +28,8 @@ export default async function Image() {
           />
         </svg>
         <p>Evandro Gibicoski | Gibify</p>
-        <p>Frontend Developer - Next.js | React.js | Electron.js | Typescript | Javascript | Shopify</p>
+        <p>Frontend Developer</p>
+        <p>Next.js | React.js | Electron.js | Typescript | Javascript | Shopify</p>
       </div>
     ),
     {

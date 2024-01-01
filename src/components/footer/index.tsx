@@ -5,7 +5,7 @@ export function Footer() {
 
   return (
     <footer className="flex items-center justify-center p-4">
-      <p> &copy;{currentYear} <code className="ml-2">Gibify</code></p>
+      <p><code className="ml-2"> &copy;{currentYear} Gibify</code></p>
     </footer>
   )
 }
