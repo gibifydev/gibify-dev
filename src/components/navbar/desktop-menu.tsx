@@ -3,12 +3,13 @@ import clsx from 'clsx';
 import Link from 'next/link';
 import { Menu } from '@/components/navbar'
 import { usePathname } from 'next/navigation';
+import { inter } from '@/fonts';
 export function DesktopMenu({ menu }: { menu: Menu[] }) {
   const pathname = usePathname()
   return (
     <>
       {menu.length ? (
-        <ul className="hidden gap-4 text-sm md:flex md:items-center">
+        <ul className={`hidden gap-4 text-sm md:flex md:items-center ${inter.className}`}>
           {menu.map((item: Menu) => (
             <li key={item.title}>
               <Link

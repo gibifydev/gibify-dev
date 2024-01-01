@@ -1,12 +1,9 @@
 import type { Metadata } from 'next'
-import { Inter, Roboto } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/navbar'
 import { Footer } from '@/components/footer'
 import Script from 'next/script'
-
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
-const roboto = Roboto({ subsets: ['latin'], weight: ['400', '700'], variable: '--font-roboto' })
+import { roboto } from '@/fonts'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://gibify.dev'),
