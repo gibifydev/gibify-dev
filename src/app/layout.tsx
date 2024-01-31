@@ -42,12 +42,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode
-}) {
+}>) {
   return (
     <html lang="en" className={`${roboto.variable}`}>
-      <body>
+      <body className='--font-roboto'>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-PJSG9JS52H" />
         <Script id="google-analytics">
           {`
