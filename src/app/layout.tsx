@@ -47,7 +47,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.className}`}>
-      <body >
+      <body>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-PJSG9JS52H" />
         <Script id="google-analytics">
           {`
@@ -59,7 +59,9 @@ export default function RootLayout({
         `}
         </Script>
         <Navbar />
-        {children}
+        <main className='max-w-[1024px] mx-auto mt-5 lg:mt-10'>
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
