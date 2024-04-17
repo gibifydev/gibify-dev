@@ -20,15 +20,15 @@ export default function HomePage() {
 
         < br />
         <p className="text-xl">
-          Sou formado em <code>Gestão da Tecnologia da Informação</code> pela <code>Faculdade Unicesumar de Maringá</code> e <code>Pós Graduado(MBA) em Engenharia de Softaware</code> pela <code>Universidade Metropoliana de SP</code>
+          <code>Sou formado em Gestão da Tecnologia da Informação pela Faculdade Unicesumar de Maringá e Pós Graduado em Engenharia de Softaware pela Universidade Metropoliana de SP.</code>
         </p>
 
         < br />
         <p className="text-xl mb-10">
-          Atualmente trabalho como Desenvolvedor de Software Frontend (Web e Desktop)
+          Atualmente trabalho como Desenvolvedor de Software Frontend (Web e Desktop).
         </p>
 
-        <Link href="/contact" className="text-green-600">Entre em contato</Link>
+        <Link href="/contact" className="text-green-600 border border-green-600 py-4 px-6 rounded-full">Entre em contato</Link>
       </div>
     </main>
   )
