@@ -13,12 +13,8 @@
       "path": "/blog"
     },
     {
-      "title": "contact",
+      "title": "contato",
       "path": "/contact"
-    },
-    {
-      "title": "Ai",
-      "path": "https://ai.gibify.dev/"
     }
   ]
 }

@@ -1,4 +1,5 @@
 import { Metadata } from "next"
+import Link from "next/link"
 
 export const metadata: Metadata = {
   title: 'Evandro Gibicoski | Gibify'
@@ -23,9 +24,11 @@ export default function HomePage() {
         </p>
 
         < br />
-        <p className="text-xl">
+        <p className="text-xl mb-10">
           Atualmente trabalho como Desenvolvedor de Software Frontend (Web e Desktop)
         </p>
+
+        <Link href="/contact" className="text-green-600">Entre em contato</Link>
       </div>
     </main>
   )
