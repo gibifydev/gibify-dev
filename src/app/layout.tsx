@@ -8,8 +8,8 @@ import { roboto } from '@/fonts'
 export const metadata: Metadata = {
   metadataBase: new URL('https://gibify.dev'),
   title: {
-    template: '%s | Gibify',
-    default: 'Gibify'
+    template: '%s | The Gibi',
+    default: 'The Gibi'
   },
   description: 'Frontend Developer - Next.js | React.js | Electron.js | Typescript | Javascript | Shopify',
   openGraph: {
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Gibify',
+    title: 'The Gibi',
     card: 'summary_large_image',
   },
   verification: {
