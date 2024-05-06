@@ -1,4 +1,3 @@
-import { LogoIcon } from '@/components/icon/logo-icon'
 import { ImageResponse } from 'next/og'
 
 

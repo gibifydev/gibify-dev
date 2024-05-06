@@ -1,7 +1,7 @@
 
 export function ConatctForm() {
   return (
-    <form className="flex  flex-col gap-6 max-w-[500px] mt-12 w-full" >
+    <form className="flex  flex-col gap-6 max-w-[500px] mt-12 w-full p-4" >
       <h1 className="text-2xl">Entre em Contato</h1>
       <p className="text-md">
         Envia uma mensagem e deixa nos saber sobre suas dúvidas e sugestões.

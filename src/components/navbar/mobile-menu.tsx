@@ -6,7 +6,8 @@ import { Fragment, useEffect, useState } from 'react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Menu } from './index';
 import { inter } from '@/fonts';
-export function MobileMenu({ menu }: { menu: Menu[] }) {
+
+export function MobileMenu({ menu }: { readonly menu: ReadonlyArray<Menu> }) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const [isOpen, setIsOpen] = useState(false);
