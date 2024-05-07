@@ -1,5 +1,5 @@
-import type { Metadata } from 'next'
 import './globals.css'
+import type { Metadata } from 'next'
 import Navbar from '@/components/navbar'
 import { Footer } from '@/components/footer'
 import Script from 'next/script'
@@ -13,10 +13,10 @@ export const metadata: Metadata = {
   },
   description: 'Frontend Developer - Next.js | React.js | Electron.js | Typescript | Javascript | Shopify',
   openGraph: {
-    title: 'Gibify',
+    title: 'The Gibi',
     description: 'Frontend Developer - Next.js | React.js | Electron.js | Typescript | Javascript | Shopify',
-    url: 'https://gibify.dev',
-    siteName: 'Gibify',
+    url: 'https://thegibi.dev',
+    siteName: 'The Gibi',
     locale: 'pt_BR',
     type: 'website',
   },

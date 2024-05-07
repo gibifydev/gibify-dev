@@ -2,7 +2,7 @@ import { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: 'Evandro Gibicoski | Gibify'
+  title: 'Evandro Gibicoski | The Gibi'
 }
 
 export default function HomePage() {
