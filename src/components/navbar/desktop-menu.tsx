@@ -9,7 +9,7 @@ export function DesktopMenu({ menu }: { menu: Menu[] }) {
   return (
     <>
       {menu.length ? (
-        <ul className={`hidden gap-4 text-sm md:flex md:items-center ${inter.className}`}>
+        <ul className={`hidden gap-6 text-sm md:flex md:items-center ${inter.className}`}>
           {menu.map((item: Menu) => (
             <li key={item.title}>
               <Link
