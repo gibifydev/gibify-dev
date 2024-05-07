@@ -4,7 +4,7 @@ export function Footer() {
 
   return (
     <footer className="flex items-center justify-center p-4">
-      <p><code className="ml-2"> &copy;{currentYear} gibify.dev</code></p>
+      <p><code className="ml-2"> &copy;{currentYear} thegibi.dev</code></p>
     </footer>
   )
 }
