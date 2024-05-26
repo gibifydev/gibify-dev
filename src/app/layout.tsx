@@ -42,11 +42,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  searchParams,
 }: Readonly<{
   children: React.ReactNode
+  searchParams: { lang: string }
 }>) {
   return (
-    <html lang="en" className={`${inter.className}`}>
+    <html lang={searchParams?.lang || "en"} className={`${inter.className}`}>
       <body>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-PJSG9JS52H" />
         <Script id="google-analytics">

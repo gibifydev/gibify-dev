@@ -3,6 +3,7 @@ import data from './menu.json'
 import { LogoSquare } from '@/components/icon/logo-square';
 import { MobileMenu } from './mobile-menu';
 import { DesktopMenu } from './desktop-menu';
+import ChoseLanguageButton from '../ChoseLanguageButton/page';
 
 
 export type Menu = {
@@ -28,6 +29,7 @@ export default function Navbar() {
           <DesktopMenu menu={menu} />
         </div>
       </div>
+        <ChoseLanguageButton />
     </nav>
   );
 }
