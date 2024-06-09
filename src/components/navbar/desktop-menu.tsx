@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Menu } from '@/components/navbar'
 import { usePathname } from 'next/navigation';
 import { inter } from '@/fonts';
-export function DesktopMenu({ menu }: { menu: Menu[] }) {
+export function DesktopMenu({ menu }: Readonly<{ menu: Menu[] }>) {
   const pathname = usePathname()
   return (
     <>
