@@ -72,12 +72,12 @@ export default function Stacks() {
 
           
       <Link href="https://www.typescriptlang.org/" target="_blank">
-        <Card className="flex flex-col w-[180px] items-center justify-center border-2 border-[#007ACC]">
+        <Card className="flex flex-col w-[180px] items-center justify-center border-2 border-[#3178C6]">
           <CardContent className="p-[30px]">
             <TypescriptIcon />
           </CardContent>
           <CardFooter>
-            <CardTitle className="text-[#007ACC]">Typescript</CardTitle>
+            <CardTitle className="text-[#3178C6]">Typescript</CardTitle>
           </CardFooter>
         </Card>
       </Link>
