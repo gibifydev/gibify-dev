@@ -48,7 +48,7 @@ export default function RootLayout({
   searchParams: { lang: string }
 }>) {
   return (
-    <html lang={searchParams?.lang || "en"} className={`${inter.className}`}>
+    <html lang="pt" className={`${inter.className}`}>
       <body>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-PJSG9JS52H" />
         <Script id="google-analytics">
@@ -64,7 +64,7 @@ export default function RootLayout({
         <main className='max-w-[1024px] mx-auto mt-5 lg:mt-10'>
           {children}
         </main>
-        <Footer />
+        <Footer/>
       </body>
     </html>
   )

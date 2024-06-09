@@ -1,4 +1,5 @@
 'use client'
+import { useEffect} from "react"
 import {
   Menubar,
   MenubarMenu,
@@ -7,7 +8,6 @@ import {
   MenubarItem
 ,} from "@/components/ui/menubar"
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
-import { useState } from "react"
 
 export default function ChoseLanguageButton() {
   const searchParams = useSearchParams();
@@ -23,6 +23,16 @@ export default function ChoseLanguageButton() {
     }
     replace(`${pathname}?${params.toString()}`);
   }
+
+
+  useEffect(() => {
+    if(!searchParams.has("lang")) {
+      const params = new URLSearchParams(searchParams);
+      params.set("lang", "pt");
+      replace(`${pathname}?${params.toString()}`);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchParams, pathname]);
 
   return (
     <Menubar>

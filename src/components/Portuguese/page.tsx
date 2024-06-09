@@ -9,7 +9,7 @@ export default function Portuguese() {
     </h1>
     <p className="text-xl">
       Como desenvolvedor de software, tenho uma paixão por criar soluções de software.
-      Minha experiência abrange tecnologias voltadas para a Web e aplicativos Desktop multiplataforma, permitindo-me adaptar-me em ambientes de desenvolvimento em constante mudança.
+      Minha experiência abrange tecnologias voltadas para a Web e aplicativos Desktop multiplataforma, permitindo-me adaptar em ambientes de desenvolvimento em constante mudança.
     </p>
 
     < br />

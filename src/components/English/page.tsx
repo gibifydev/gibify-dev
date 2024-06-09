@@ -9,7 +9,7 @@ export default function English() {
       </h1>
       <p className="text-xl">
       As a software developer, I have a passion for creating software solutions. 
-      My experience encompasses technologies geared towards the Web and cross-platform Desktop adn Mobile applications, allowing me to adapt to constantly changing development environments.
+      My experience encompasses technologies geared towards the Web and cross-platform Desktop and Mobile applications, allowing me to adapt to constantly changing development environments.
       </p>
 
       < br />
