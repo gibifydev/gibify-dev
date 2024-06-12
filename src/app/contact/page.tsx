@@ -7,13 +7,13 @@ export const metadata: Metadata = {
 }
 
 export default function ContactPage() {
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-5 md:p-10">
       <div >
         <ConatctForm />
         <SocialLinks />
       </div>
-
     </main>
   )
 }
