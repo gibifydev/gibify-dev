@@ -1,0 +1,22 @@
+
+export function ConatctFormInEnglish() {
+  return (
+    <form className="flex  flex-col gap-6 max-w-[500px] mt-12 w-full p-4" >
+      <h1 className="text-2xl">Contact me</h1>
+      <p className="text-md">
+        Send me a message and let me know about your questions and suggestions.
+      </p>
+      <div className="flex flex-col gap-2 w-full">
+        <label htmlFor="">E-mail</label>
+        <input type="text" placeholder="your best e-mail" className="w-full px-4 py-2 rounded-md bg-neutral-100" />
+      </div>
+      <div className="flex flex-col gap-2 w-full">
+        <label htmlFor="">Message</label>
+        <textarea placeholder="write here your message..." className="w-full px-4 py-2 rounded-md min-h-[100px] bg-neutral-100" />
+      </div>
+      <button className="mt-8 w-full bg-green-500 p-4 rounded-md text-sm uppercase font-semibold text-white">
+        Submit
+      </button>
+    </form >
+  )
+}
