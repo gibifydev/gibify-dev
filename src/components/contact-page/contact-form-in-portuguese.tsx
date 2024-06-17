@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 export function ConatctFormInPortuguese() {
   return (
@@ -14,9 +15,12 @@ export function ConatctFormInPortuguese() {
         <label htmlFor="">Mensagem</label>
         <textarea placeholder="Escreva aqui sua mensagem..." className="w-full px-4 py-2 rounded-md min-h-[100px] bg-neutral-100" />
       </div>
-      <button className="mt-8 w-full bg-green-500 p-4 rounded-md text-sm uppercase font-semibold text-white">
+      <button className="mt-8 w-full bg-neutral-700 p-4 rounded-md text-sm uppercase font-semibold text-white">
         Envia Mensagem
       </button>
+      <Link href="https://wa.me/+5548998463847"  target="_blank" className="mt-8 w-full bg-green-500 p-4 rounded-md text-sm text-center uppercase font-semibold text-white">
+        Whatsapp
+      </Link>
     </form >
   )
 }

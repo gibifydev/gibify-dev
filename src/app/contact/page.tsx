@@ -15,7 +15,6 @@ export default function ContactPage({ searchParams }: Readonly<{searchParams: { 
         {searchParams.lang === "pt" ? <ConatctFormInPortuguese /> : <ConatctFormInEnglish />}
         <SocialLinks />
       </div>
-
     </main>
   )
 }
