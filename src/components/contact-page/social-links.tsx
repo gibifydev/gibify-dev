@@ -8,7 +8,7 @@ export function SocialLinks() {
 
   return (
     <div className='mt-11 p-4'>
-      <span>Redes Sociais</span>
+      <span>Fallow me on Social Media</span>
       <ul className='flex justify-between gap-3 mt-5'>
         {links.map((link) => {
           return (

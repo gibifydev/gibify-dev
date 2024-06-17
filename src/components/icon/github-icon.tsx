@@ -2,8 +2,8 @@ export function GithubIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      height="16"
-      width="15.5"
+      height="24"
+      width="24"
       viewBox="0 0 496 512"
     >
       <path

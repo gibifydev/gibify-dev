@@ -1,8 +1,8 @@
 export function LinkedinIcon() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg"
-      height="16"
-      width="14"
+      height="24"
+      width="24"
       viewBox="0 0 448 512"
     >
       <path
