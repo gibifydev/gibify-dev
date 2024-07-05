@@ -14,12 +14,12 @@ export default function Portuguese() {
 
     < br />
     <p className="text-xl">
-      <code>Sou formado em Gestão da Tecnologia da Informação pela Faculdade Unicesumar de Maringá e Pós Graduado em Engenharia de Softaware pela Universidade Metropoliana de SP.</code>
+      <code>Sou formado em Gestão da Tecnologia da Informação pela Faculdade Unicesumar de Maringá e Pós Graduado em Engenharia de Softaware pela Universidade Metropolitana de SP.</code>
     </p>
 
     < br />
     <p className="text-xl mb-10">
-      Atualmente trabalho como Desenvolvedor de Software Frontend (Web, Mobile e Desktop).
+      Atualmente trabalho como Desenvolvedor de Software Frontend (Web & Desktop).
     </p>
 
     <Link href="/contact" className="text-green-600 border border-green-600 py-4 px-6 rounded-full">Entre em contato</Link>

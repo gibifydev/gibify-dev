@@ -14,12 +14,12 @@ export default function English() {
 
       < br />
       <p className="text-xl">
-        <code>I hold a degree in Information Technology Management from Unicesumar University of Maringá and a Postgraduate degree in Software Engineering from the Metropolitan University of São Paulo.</code>
+        <code>I hold a degree in Information Technology Management from Unicesumar University of Maringá and a Postgraduate degree in Software Engineering from the Metropolitana University of São Paulo.</code>
       </p>
 
       < br />
       <p className="text-xl mb-10">
-      I currently work as a Frontend Software Developer (Web, Mobile, and Desktop).
+      I currently work as a Frontend Software Developer (Web and Desktop).
       </p>
 
       <Link href="/contact" className="text-green-600 border border-green-600 py-4 px-6 rounded-full">Contact me</Link>
