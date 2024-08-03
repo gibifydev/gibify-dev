@@ -19,7 +19,7 @@ export default function Spanish() {
 
     <br />
     <p className="text-xl mb-10">
-      Actualmente trabajo como Desarrollador de Software Frontend (Web y Escritorio).
+      Actualmente trabajo como <strong>Developer Specialist</strong> en <a href="https://www.grupoboticario.com.br/es/home-es/" target="_blank" className="text-green-500">Grupo Boticário</a>.
     </p>
 
     <Link href="/contact" className="text-green-600 border border-green-600 py-4 px-6 rounded-full">Contáctame</Link>
