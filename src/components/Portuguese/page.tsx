@@ -14,7 +14,7 @@ export default function Portuguese() {
 
     < br />
     <p className="text-xl">
-      <code>Sou formado em Gestão da Tecnologia da Informação pela Faculdade Unicesumar de Maringá e Pós Graduado em Engenharia de Softaware pela Universidade Metropolitana de SP.</code>
+      <code>Sou formado em Gestão da Tecnologia da Informação pela Faculdade Unicesumar de Maringá e Pós Graduado em Engenharia de Software pela Universidade Metropolitana de SP.</code>
     </p>
 
     < br />

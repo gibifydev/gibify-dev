@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function HomePage({ searchParams }: Readonly<{searchParams: { lang: string }}>) {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-4 lg:6">
+    <main className="flex min-h-screen flex-col items-center justify-between p-4 mt-[20%]">
       {searchParams.lang === "en" ? <English /> : searchParams.lang === "es" ? <Spanish /> : <Portuguese />}
     </main>
   )

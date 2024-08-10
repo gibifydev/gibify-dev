@@ -46,12 +46,12 @@ export default function ChoseLanguageButton() {
   }, [searchParams, pathname]);
 
   return (
-    <Menubar>
+    <Menubar className="rounded-full w-[48px] h-[48px] flex items-center justify-center bg-neutral-50">
       <MenubarMenu>
       <MenubarTrigger>
         {flag}
       </MenubarTrigger>
-        <MenubarContent>
+        <MenubarContent className="bg-neutral-50 rounded">
             <MenubarItem onClick={() => handleChoseLang("pt")}>
               🇧🇷 - Português 
             </MenubarItem>

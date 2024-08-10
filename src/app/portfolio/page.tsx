@@ -1,3 +1,4 @@
+import { GoogleGeminiEffectDemo } from "@/components/acerternity-ui/google-gemini-effect"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -6,10 +7,8 @@ export const metadata: Metadata = {
 
 export default function PortfolioPage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-5xl max-w-5xl px-4">
-        Portfolio, em breve terá Portfolio
-      </h1>
+    <main className="flex min-h-screen flex-col items-center justify-between">
+        <GoogleGeminiEffectDemo />
     </main>
   )
 }

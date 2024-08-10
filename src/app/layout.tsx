@@ -49,7 +49,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt" className={`${inter.className}`}>
-      <body>
+      <body className='bg-white dark:bg-black antialiased h-full w-full'>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-PJSG9JS52H" />
         <Script id="google-analytics">
           {`
