@@ -19,10 +19,10 @@ export default function English() {
 
       < br />
       <p className="text-xl mb-10">
-      I currently work as a <strong>Developer Specialist</strong> at <a href="https://www.grupoboticario.com.br/en/home-en/" target="_blank" className="text-green-500">Grupo Boticário</a>.
+      I currently work as a <strong>Developer Specialist</strong> at <a href="https://www.grupoboticario.com.br/en/home-en/" target="_blank" className="text-[#78866B] font-semibold">Grupo Boticário</a>.
       </p>
 
-      <Link href="/contact" className="text-green-600 border border-green-600 py-4 px-6 rounded-full">Contact me</Link>
+      <Link href="/contact" className="text-[#78866B] border border-[#78866B] py-4 px-6 rounded-full font-semibold">Contact me</Link>
     </div>
   )
 }

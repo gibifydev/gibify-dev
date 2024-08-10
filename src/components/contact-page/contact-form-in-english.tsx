@@ -16,10 +16,10 @@ export function ConatctFormInEnglish() {
         <label htmlFor="">Message</label>
         <textarea placeholder="write here your message..." className="w-full px-4 py-2 rounded-md min-h-[100px] bg-neutral-100" />
       </div>
-      <button className="mt-8 w-full bg-neutral-700 p-4 rounded-md text-sm uppercase font-semibold text-white">
+      <button className="mt-8 w-full bg-neutral-950 p-4 rounded-full text-sm uppercase font-semibold text-white">
         Submit a message
       </button>
-      <Link href="https://wa.me/+5548998463847"  target="_blank" className="mt-8 w-full bg-green-500 p-4 rounded-md text-sm text-center uppercase font-semibold text-white">
+      <Link href="https://wa.me/+5548998463847"  target="_blank" className="mt-8 w-full bg-[#78866B] p-4 rounded-full text-sm text-center uppercase font-semibold text-white">
         Whatsapp me
       </Link>
     </form >
