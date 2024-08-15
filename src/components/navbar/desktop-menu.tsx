@@ -15,7 +15,7 @@ export function DesktopMenu({ menu }: Readonly<{ menu: Menu[] }>) {
               <Link
                 href={item.path}
                 className={clsx('text-xs py-2 font-normal rounded-xs dark:text-white uppercase', {
-                  'text-green-500 dark:text-green-500 font-semibold': pathname === item.path,
+                  'text-[#78866B] dark:text-[#78866B] font-semibold': pathname === item.path,
                 })}
               >
                 {item.title}
