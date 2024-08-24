@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import data from './menu.json'
-import { LogoSquare } from '@/components/icon/logo-square';
+import data from '@/data/menu.json'
 import { MobileMenu } from './mobile-menu';
 import { DesktopMenu } from './desktop-menu';
 import ChoseLanguageButton from '../ChoseLanguageButton/page';
@@ -12,7 +11,7 @@ export type Menu = {
   path: string;
 }
 
-export default function Navbar() {
+export default function Navbar(props: any) {
   const menu = data.menu;
   return (
     <nav className="w-full flex items-center justify-between p-4 lg:px-6 rounded-full fixed top-4 left-0 right-0 bg-neutral-950 text-neutral-50">

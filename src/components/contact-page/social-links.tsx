@@ -1,6 +1,6 @@
 'use client'
 import { Icon } from '@/components/icon';
-import data from './social-links.json';
+import data from '@/data/social-links.json';
 import Link from 'next/link';
 import clsx from 'clsx';
 export function SocialLinks() {
