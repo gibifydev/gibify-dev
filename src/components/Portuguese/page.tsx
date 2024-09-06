@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Portuguese() {
   return (
-    <div>
+    <div className="p-4">
     <h1 className="text-3xl lg:text-5xl pb-8">
       Olá, seja bem vindo. 😀
       <br /> Sou Evandro Gibicoski, conhecido como <code>Gibi</code>
@@ -22,7 +22,7 @@ export default function Portuguese() {
       Atualmente, trabalho como <strong>Desenvolvedor Especialista</strong> no <a href="https://www.grupoboticario.com.br/" target="_blank" className="text-[#78866B] font-semibold">Grupo Boticário</a>.
     </p>
 
-    <Link href="/contact" className="text-[#78866B] border border-[#78866B] py-4 px-6 rounded-full font-semibold">Entre em contato</Link>
+    <Link href="/contact" className="text-[#78866B] border border-[#78866B] py-4 w-full px-6 rounded-full font-semibold">Entre em contato</Link>
   </div>
   )
 }
