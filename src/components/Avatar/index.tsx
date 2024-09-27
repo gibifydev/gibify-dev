@@ -11,7 +11,7 @@ export default function Avatar() {
     className=""
   >
       <Image
-        src="/08509030-D970-40F8-9F16-FB3312938376.jpg"
+        src="/8S6A6284.jpg"
         alt="Avatar"
         className="w-32 h-32 rounded-full object-cover border-2 border-gray-950 p-1 shadow-lg"
         width={100}

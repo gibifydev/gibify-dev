@@ -5,20 +5,16 @@
       "path": "https://www.linkedin.com/in/thegibiofficial/"
     },
     {
-      "name": "instagram",
-      "path": "https://www.instagram.com/thegibiofficial"
-    },
-    {
       "name": "whatsapp",
       "path": "https://wa.me/message/QZCLNRIOESI4N1"
     },
     {
-      "name": "youtube",
-      "path": "https://www.youtube.com/@thegibiofficial"
-    },
-    {
       "name": "github",
       "path": "https://www.github.com/thegibi"
+    },
+    {
+      "name": "instagram",
+      "path": "https://www.instagram.com/thegibiofficial"
     }
   ]
 }

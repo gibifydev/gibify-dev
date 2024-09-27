@@ -59,7 +59,6 @@ export default function RootLayout({
         </Script>
         <main className='overflow-x-hidden'>
           {children}
-          <Footer />
         </main>
       </body>
     </html>

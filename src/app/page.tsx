@@ -1,3 +1,4 @@
+import Footer from "@/components/footer"
 import HeroSession from "@/components/HeroSession"
 import { Metadata } from "next"
 
@@ -9,6 +10,7 @@ export default function HomePage({ searchParams }: Readonly<{searchParams: { lan
   return (
     <div className="min-h-screen">
      <HeroSession />
+      <Footer />
     </div>
   )
 }
