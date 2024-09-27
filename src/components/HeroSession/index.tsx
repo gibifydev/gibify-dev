@@ -8,7 +8,7 @@ export default function HeroSession() {
     <section className="relative flex flex-col items-center justify-center h-screen text-center">
         <motion.div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/08509030-D970-40F8-9F16-FB3312938376.jpg')" }}
+        style={{ backgroundImage: "url('/8S6A6284.jpg')" }}
         initial={{ scale: 1 }}
         animate={{ scale: 1.1 }}
         transition={{
@@ -25,7 +25,7 @@ export default function HeroSession() {
         transition={{ duration: 0.8 }}
         className="relative text-4xl md:text-6xl font-bold text-white mb-4"
       >
-        Seja bem Vindo ao The Gibi Dev
+        Seja bem Vindo ao thegibi.dev
       </motion.h1>
 
       <motion.p
@@ -58,7 +58,7 @@ export default function HeroSession() {
             transition={{ duration: 1 }}
             className="text-3xl font-bold text-center mb-12"
           >
-           Serviços
+           O que faço
           </motion.h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

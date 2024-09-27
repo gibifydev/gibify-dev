@@ -1,6 +1,5 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import Navbar from '@/components/navbar'
 import Script from 'next/script'
 import { inter } from '@/fonts'
 import Footer from '@/components/footer'
@@ -41,11 +40,9 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
-  searchParams,
+  children
 }: Readonly<{
   children: React.ReactNode
-  searchParams: { lang: string }
 }>) {
   return (
     <html lang="pt" className={`${inter.className}`}>
