@@ -1,29 +1,23 @@
-import { LinkedinIcon } from "./linkedin-icon";
-import { XIcon } from "./x-icon";
-import { InstagramIcon } from './instagram-icon'
-import { FacebookIcon } from './facebook-icon'
-import { GithubIcon } from "./github-icon";
-import { YoutubeIcon } from "./youtube-icon";
-import { WhatsappIcon } from "./whatsapp-icon";
+import { FaGlobe, FaInstagram, FaLinkedin, FaFacebookF, FaGithub, FaWhatsapp, FaLink, FaYoutube} from 'react-icons/fa6'
 
 export function Icon({ name }: { name: string }) {
   switch (name)
   {
-    case 'x':
-      return <XIcon />
     case 'linkedin':
-      return <LinkedinIcon />
+      return <FaLinkedin size={20}/>
     case 'instagram':
-      return <InstagramIcon />
+      return <FaInstagram size={20}/>
     case 'facebook':
-      return <FacebookIcon />
+      return <FaFacebookF size={20}/>
     case 'github':
-      return <GithubIcon />
+      return <FaGithub size={20}/>
     case 'youtube':
-      return <YoutubeIcon />
+      return <FaYoutube size={20}/>
     case 'whatsapp':
-      return <WhatsappIcon />
+      return <FaWhatsapp size={20}/>
+    case 'website':
+      return <FaGlobe size={20}/>
     default:
-      <></>
+      return <FaLink size={20}/>
   }
 }

@@ -4,7 +4,6 @@ import clsx from "clsx";
 import Link from "next/link";
 import { Icon } from "@/components/icon";
 import { Children } from "react";
-import Avatar from "@/components/Avatar";
 
 export const metadata: Metadata = {
   title: 'Bio'
@@ -21,7 +20,7 @@ return (
           return (
             <li
               className={clsx(
-                'w-full flex flex-none cursor-pointer p-4 max-w-80 items-center justify-center border border-gray-50 text-gray-50 dark:border-neutral-700 dark:bg-black rounded-full capitalize')}
+                'w-full flex flex-none cursor-pointer p-4 max-w-80 items-center justify-center border text-sm uppercase border-gray-50 text-gray-50 dark:border-neutral-700 dark:bg-black rounded-full')}
             >
               <Link
                 href={link.path}

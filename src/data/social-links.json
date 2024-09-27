@@ -15,6 +15,10 @@
     {
       "name": "instagram",
       "path": "https://www.instagram.com/thegibiofficial"
+    },
+    {
+      "name": "website",
+      "path": "https://www.thegibi.dev"
     }
   ]
 }
