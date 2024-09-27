@@ -4,7 +4,6 @@ import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa6";
 export default function Links() {
   return (
     <div className="flex flex-col items-center md:items-start">
-          <h3 className="text-lg font-bold mb-4">Redes Sociais</h3>
           <div className="flex space-x-4">
             <a
               href="https://www.facebook.com/thegibi.dev/"

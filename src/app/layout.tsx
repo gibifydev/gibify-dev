@@ -2,7 +2,6 @@ import './globals.css'
 import type { Metadata } from 'next'
 import Script from 'next/script'
 import { inter } from '@/fonts'
-import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://thegibi.dev'),

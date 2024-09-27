@@ -7,7 +7,6 @@ export function Infos() {
 
   return (
     <div className="mt-8 md:mt-0 text-center md:text-left">
-      <h3 className="text-lg font-bold mb-4">Informações</h3>
       <ul className="space-y-2">
         {pathname !== "/" && (
           <li>
@@ -19,14 +18,16 @@ export function Infos() {
           </a>
         </li>
         )}
-        <li>
-          <a
-            href="/about"
-            className="text-gray-400 hover:text-white transition"
-          >
-            Sobre mim
-          </a>
-        </li>
+        {pathname !== "/about" && (
+           <li>
+           <a
+             href="/about"
+             className="text-gray-400 hover:text-white transition"
+           >
+             Sobre mim
+           </a>
+         </li>
+        )}
         {/* <li>
           <a
             href="/privacy"

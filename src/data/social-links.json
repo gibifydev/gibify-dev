@@ -19,6 +19,10 @@
     {
       "name": "website",
       "path": "https://www.thegibi.dev"
+    },
+    {
+      "name": "sobre mim",
+      "path": "https://www.thegibi.dev/about"
     }
   ]
 }
