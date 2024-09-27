@@ -1,4 +1,4 @@
-import { FaGlobe, FaInstagram, FaLinkedin, FaFacebookF, FaGithub, FaWhatsapp, FaLink, FaYoutube} from 'react-icons/fa6'
+import { FaGlobe, FaInstagram, FaLinkedin, FaFacebookF, FaGithub, FaWhatsapp, FaLink, FaYoutube, FaUser} from 'react-icons/fa6'
 
 export function Icon({ name }: { name: string }) {
   switch (name)
@@ -17,6 +17,8 @@ export function Icon({ name }: { name: string }) {
       return <FaWhatsapp size={22}/>
     case 'website':
       return <FaGlobe size={22}/>
+    case 'sobre mim':
+      return <FaUser size={22}/>
     default:
       return <FaLink size={22}/>
   }
