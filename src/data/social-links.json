@@ -9,10 +9,6 @@
       "path": "https://www.instagram.com/thegibiofficial"
     },
     {
-      "name": "facebook",
-      "path": "https://www.facebook.com/thegibiofficial"
-    },
-    {
       "name": "whatsapp",
       "path": "https://wa.me/message/QZCLNRIOESI4N1"
     },
@@ -23,10 +19,6 @@
     {
       "name": "github",
       "path": "https://www.github.com/thegibi"
-    },
-    {
-      "name": "x",
-      "path": "https://www.twitter.com/thegibiofficial"
     }
   ]
 }

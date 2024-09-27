@@ -1,12 +1,12 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import Navbar from '@/components/navbar'
-import { Footer } from '@/components/footer'
 import Script from 'next/script'
 import { inter } from '@/fonts'
+import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://gibify.dev'),
+  metadataBase: new URL('https://thegibi.dev'),
   title: {
     template: '%s | The Gibi',
     default: 'The Gibi'
@@ -60,11 +60,10 @@ export default function RootLayout({
           gtag('config', 'G-PJSG9JS52H');
         `}
         </Script>
-        <Navbar />
-        <main className='max-w-[1024px] mx-auto mt-5 lg:mt-10'>
+        <main className='overflow-x-hidden'>
           {children}
+          <Footer />
         </main>
-        <Footer/>
       </body>
     </html>
   )

@@ -5,7 +5,7 @@ export default function robots() {
         userAgent: '*',
       },
     ],
-    sitemap: 'https://gibify.dev/sitemap.xml',
-    host: 'https://gibify.dev',
+    sitemap: 'https://thegibi.dev/sitemap.xml',
+    host: 'https://thegibi.dev',
   };
 }
