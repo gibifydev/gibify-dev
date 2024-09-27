@@ -4,20 +4,20 @@ export function Icon({ name }: { name: string }) {
   switch (name)
   {
     case 'linkedin':
-      return <FaLinkedin size={20}/>
+      return <FaLinkedin size={22}/>
     case 'instagram':
-      return <FaInstagram size={20}/>
+      return <FaInstagram size={22}/>
     case 'facebook':
-      return <FaFacebookF size={20}/>
+      return <FaFacebookF size={22}/>
     case 'github':
-      return <FaGithub size={20}/>
+      return <FaGithub size={22}/>
     case 'youtube':
-      return <FaYoutube size={20}/>
+      return <FaYoutube size={22}/>
     case 'whatsapp':
-      return <FaWhatsapp size={20}/>
+      return <FaWhatsapp size={22}/>
     case 'website':
-      return <FaGlobe size={20}/>
+      return <FaGlobe size={22}/>
     default:
-      return <FaLink size={20}/>
+      return <FaLink size={22}/>
   }
 }
