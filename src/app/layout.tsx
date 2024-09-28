@@ -11,20 +11,12 @@ export const metadata: Metadata = {
   },
   description: 'Software Developer - Next.js | React.js | Electron.js | Typescript | Javascript',
   openGraph: {
-    title: 'The Gibi',
+    title: 'Evandro Gibicoski | The Gibi',
     description: 'Software Developer - Next.js | React.js | Electron.js | Typescript | Javascript',
     url: 'https://thegibi.dev',
     siteName: 'The Gibi',
     locale: 'pt_BR',
     type: 'website',
-    images: [
-      {
-        url: '/8S6A6284.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Evandro Gibicoski',
-      },
-    ],
   },
   robots: {
     index: true,
