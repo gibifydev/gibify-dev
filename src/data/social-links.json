@@ -23,6 +23,10 @@
     {
       "name": "sobre mim",
       "path": "https://www.thegibi.dev/about"
+    },
+    {
+      "name": "Blog",
+      "path": "https://www.thegibi.dev/blog"
     }
   ]
 }
