@@ -17,6 +17,10 @@
       "path": "https://www.instagram.com/thegibiofficial"
     },
     {
+      "name": "threads",
+      "path": "https://www.threads.net/@thegibiofficial"
+    },
+    {
       "name": "website",
       "path": "https://www.thegibi.dev"
     },
@@ -25,7 +29,7 @@
       "path": "https://www.thegibi.dev/about"
     },
     {
-      "name": "Blog",
+      "name": "blog",
       "path": "https://www.thegibi.dev/blog"
     }
   ]

@@ -25,7 +25,7 @@ export default function HeroSession() {
         transition={{ duration: 0.8 }}
         className="relative text-4xl md:text-6xl font-bold text-white mb-4"
       >
-        Seja bem vindo ao thegibi.dev
+        Seja bem vindo ao The Gibi
       </motion.h1>
 
       <motion.p
