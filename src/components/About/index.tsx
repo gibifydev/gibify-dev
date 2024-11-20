@@ -4,8 +4,8 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function AboutComponent() {
   return (
-    <section className="flex flex-col p-8 h-screen bg-gray-100 bg-center bg-cover bg-no-repeat" style={{ backgroundImage: "url('/8S6A6322.jpg')" }}>
-      <div className="flex flex-col md:flex-row items-center justify-between  bg-white/60 rounded-xl p-6">
+    <section className="flex flex-col p-8 h-screen bg-gray-100 bg-top bg-cover bg-no-repeat" style={{ backgroundImage: "url('/8S6A6322.jpg')", height: "100vh" }}>
+      <div className="flex flex-col md:flex-row items-center justify-between  bg-white/70 rounded-xl p-6  shadow-2xl">
         <motion.div
           initial={{ opacity: 0, x: 100 }}
           animate={{ opacity: 1, x: 0 }}
@@ -16,7 +16,7 @@ export default function AboutComponent() {
             Tenho mais de 6 anos de experiência de desenvolvimento na indústria de software com especialização em tecnologias como Javascript, CSS, HTML, Typescript, Node.js, Next.js e Electron.js.<br /> Apaixonado por tecnologia, adoro criar aplicações que tenham impacto e ofereçam valor real para os usuários.
           </p>
           <p className="mb-4">
-            Sou formado em Gestão da Tecnologia da Informação pela Unicesumar - PR e Pós-Graduado em Engenharia de Software pela Universidade Metropolitana - SP. <br /><br /> Atualmente trabalho como Desenvolvedor de Software Especialista no <a href="https://www.grupoboticario.com.br/" target="_blank" className="text-gray-950 font-semibold">Grupo Boticário</a>.
+            Sou formado em Gestão da Tecnologia da Informação pela Unicesumar - PR e Pós-Graduado em Engenharia de Software pela Universidade Metropolitana - SP. <br /><br /> Atualmente trabalho como Desenvolvedor de Software Especialista no <a href="https://www.grupoboticario.com.br/" target="_blank" className="text-blue-600 font-semibold">Grupo Boticário.</a>
           </p>
         </motion.div>
       </div>
