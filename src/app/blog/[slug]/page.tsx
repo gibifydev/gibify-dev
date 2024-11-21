@@ -1,11 +1,16 @@
 import path from 'node:path';
 import fs from 'node:fs';
-import { Metadata } from "next"
-import data from "../../../data/articles.json"
+import data from "../../../data/articles.json";
 
-export const metadata: Metadata = {
-  title: 'Blog',
-  description: 'Escritos que fazem meu dia mais refelxivo e produtivo',
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string }
+}) {
+  const article = data.articles.find((article) => article.id === params.slug);
+  return {
+    title: article?.title,
+  }
 }
 
 export default async function SlugPage({
