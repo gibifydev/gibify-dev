@@ -27,6 +27,7 @@ export default async function SlugPage({
   return (
     <>
     <Head>
+      <meta lang='utf-8'/>
       <title>{article?.title}</title>
     </Head>
     <main className="flex min-h-screen flex-col items-center justify-between p-4 max-w-[1024px] mx-auto" >
