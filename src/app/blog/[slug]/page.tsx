@@ -1,6 +1,7 @@
 import path from 'node:path';
 import fs from 'node:fs';
 import data from "../../../data/articles.json";
+import Head from 'next/head';
 
 export async function generateMetadata({
   params,
@@ -9,7 +10,8 @@ export async function generateMetadata({
 }) {
   const article = data.articles.find((article) => article.id === params.slug);
   return {
-    title: article?.title,
+    title: "Blog",
+    description: article?.title,
   }
 }
 
@@ -23,8 +25,13 @@ export default async function SlugPage({
   const htmlContent = fs.readFileSync(filePath, 'utf-8');
 
   return (
+    <>
+    <Head>
+      <title>{article?.title}</title>
+    </Head>
     <main className="flex min-h-screen flex-col items-center justify-between p-4 max-w-[1024px] mx-auto" >
       <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
     </main>
+    </>
   )
 }
